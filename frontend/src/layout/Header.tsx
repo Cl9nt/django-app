@@ -8,6 +8,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import StormIcon from '@mui/icons-material/Storm';
 import MenuIcon from '@mui/icons-material/Menu';
+import Biotech from '@mui/icons-material/Biotech'
 import { alpha, useTheme } from '@mui/material/styles';
 
 import CustomButton from '../components/CustomButton';
@@ -35,7 +36,7 @@ const Header = ({ onSidebarOpen }: Props): JSX.Element => {
         <Toolbar sx={{ minHeight: 70 }}>
           <Link href='/' sx={{ textDecoration: 'none' }}>
             <IconButton size='large' disabled>
-              <StormIcon 
+              <Biotech 
                 sx={{ 
                   color: theme.palette.primary.main, 
                   height: 40, 
