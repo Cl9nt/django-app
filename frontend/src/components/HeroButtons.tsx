@@ -72,7 +72,7 @@ const HeroButtons = (): JSX.Element => {
               }
             }}
           >
-            Watch Demo
+            Get in Touch
           </Button>
         </Box>
       </Box>
