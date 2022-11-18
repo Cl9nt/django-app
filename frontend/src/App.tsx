@@ -11,8 +11,8 @@ const App = (): JSX.Element => {
   return (
     <HelmetProvider>
       <Helmet 
-        titleTemplate="%s | Bob's Programming Academy"
-        defaultTitle="Bob's Programming Academy"
+        titleTemplate="%s | Yanken Labs"
+        defaultTitle="Yanken Labs"
       />
       <ThemeProvider theme={getTheme()}>
         <CssBaseline />

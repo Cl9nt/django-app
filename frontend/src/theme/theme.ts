@@ -15,7 +15,7 @@ const getTheme = (): Theme =>
           secondary: 'rgb(207, 207, 207)',
         },
         primary: {
-          main: 'rgb(129, 187, 89)',
+          main: 'rgb(7, 119, 16)',
           contrastText: 'rgb(100, 101, 98)',
         },
         divider: 'rgba(145, 158, 171, 0.24)',
